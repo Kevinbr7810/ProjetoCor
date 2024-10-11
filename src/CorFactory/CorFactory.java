@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CorFactory {
-    // Mapa que armazena as cores criadas para reutilização
+    
     private final Map<String, Cor> cores = new HashMap<>();
 
     public Cor getCor(String nome) {
